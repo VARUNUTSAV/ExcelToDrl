@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git url: 'https://bitbucket.org/your-repo.git', branch: 'master'
+                git url: 'https://github.com/VARUNUTSAV/ExcelToDrl', branch: 'main'
             }
         }
         stage('Run Excel to DRL Converter') {
